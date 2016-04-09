@@ -18,4 +18,5 @@ while True:
         screen.fill(white)
         pg.draw.polygon(screen, black, inside_points, 2)
         pg.draw.polygon(screen, black, outside_points, 2)
+        pg.draw.rect(screen, black, pg.Rect(150, 320, 15, 8))
         pg.display.flip()
